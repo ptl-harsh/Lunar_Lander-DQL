@@ -17,6 +17,32 @@ This project implements a Deep Q-Learning agent to solve the Lunar Lander enviro
 
 ![image ](maths.jpg)
 
+<!-- 
+\section*{Mathematical Equations}
+
+\subsection*{Bellman Equation}
+\[
+Q_{i+1}(s, a) = R + \gamma \max_{a'} Q_i(s', a')
+\]
+
+\subsection*{Target Calculation}
+\[
+y_j =
+\begin{cases}
+  R_j, & \text{if terminal},\\
+  R_j + \gamma \max_{a'} \hat{Q}(s_{j+1}, a'), & \text{otherwise}.
+\end{cases}
+\]
+
+\subsection*{Loss Function}
+\[
+\mathrm{Loss} = \mathrm{MSE}\bigl(y_{\mathrm{targets}},\,Q(s, a)\bigr)
+\] -->
+
+
+
+
+
 ## Dependencies
 
 - **Python Packages**:
