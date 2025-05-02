@@ -8,9 +8,9 @@ This project implements a Deep Q-Learning agent to solve the Lunar Lander enviro
 
 ## Features
 
-- **Deep Q-Network (DQN)**: Neural network to estimate \( Q(s, a) \).
+- **Deep Q-Network (DQN)**: A reinforcement learning algorithm that uses a neural network to approximate the Q-function \( Q(s, a) \).
 - **Experience Replay**: Improves learning by sampling past experiences.
-- **Target Network**: Enhances stability with a separate Q-value network.
+- **Target Network**: A separate network used to stabilize training by providing consistent targets for Q-value updates.
 - **ε-Greedy Policy**: Balances exploration and exploitation during training.
 
 ## Mathematical Equations
