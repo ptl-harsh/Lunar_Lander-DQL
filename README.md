@@ -11,7 +11,7 @@ This project implements a Deep Q-Learning agent to solve the Lunar Lander enviro
 
 ## Mathematical Equations
 
-![image ](maths.png)
+![image ](maths.jpg)
 
 ## Dependencies
 
